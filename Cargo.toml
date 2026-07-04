@@ -2,6 +2,8 @@
 name = "libtxd"
 version = "0.1.0"
 edition = "2024"
+description = "Read, write, and convert RenderWare TXD texture dictionary files"
+license = "MPL-2.0"
 
 [dependencies]
 binrw = "0.15.1"
