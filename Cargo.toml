@@ -1,0 +1,11 @@
+[package]
+name = "libtxd"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+binrw = "0.15.1"
+image = { version = "0.25.10", default-features = false, features = ["png", "jpeg"] }
+imagequant = "4.4.1"
+thiserror = "2.0.17"
+texpresso = "2.0.2"
